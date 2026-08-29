@@ -1,0 +1,27 @@
+# Web Framework & Database
+flask>=3.0.0
+flask-sqlalchemy>=3.1.0
+flask-bcrypt>=1.0.1
+python-dotenv>=1.0.0
+
+# Computer Vision & Deep Learning (Module 1)
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+huggingface_hub>=0.20.0
+Pillow>=10.0.0
+
+# Document Processing & OCR (Module 2)
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+python-docx>=1.0.0
+
+# Embeddings & Vector Storage (Module 2 & 4)
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+
+# LLM & Multi-Agent Orchestration (Modules 3, 4, 5)
+google-genai>=0.1.0
+langgraph>=0.0.20
+langchain-google-genai>=0.0.5

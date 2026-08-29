@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Databases & Vector DB storage
+*.db
+*.sqlite
+*.sqlite3
+database.db
+vector_db/
+
+# Local Uploads and Generated Detections
+frontend/detections/*
+!frontend/detections/.gitkeep
+documents/uploads/*
+!documents/uploads/.gitkeep
+
+# Downloaded AI Models & Checkpoints
+models/
+*.pt
+*.onnx
+*.bin
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
